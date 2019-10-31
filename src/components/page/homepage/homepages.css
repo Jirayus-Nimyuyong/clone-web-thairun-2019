@@ -1,0 +1,142 @@
+.buttoncolor{
+    background: rgba(0, 0, 0, 0.01) !important;
+    border: 2px solid #fff !important;
+    color: #fff !important;
+    border-radius: 25px !important;
+    height: 36px !important;
+    width: 120px;
+    margin-right: 20px;
+  }
+  .buttoncolor:hover{
+    background: #F97C3D !important;
+    border: 2px solid #F97C3D !important;
+    color: #fff !important;
+    border-radius: 25px !important;
+    width: 120px;
+  }
+  .buttonlogin{
+    background: #F97C3D !important;
+    border: 2px solid #F97C3D !important;
+    color: #fff !important;
+    border-radius: 25px !important;
+    height: 36px !important;
+    width: 150px;
+    margin-right: 20px;
+  }
+  .buttonlogin:hover{
+    background: #fff !important;
+    border: 2px solid #F97C3D !important;
+    color: #F97C3D !important;
+    border-radius: 25px !important;
+    width: 150px;
+  }
+  .button-home{
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 6%;
+  }
+  .logo{
+    padding-top: 20px;
+    z-index: 1;
+  }
+  .wrap{
+    background-image: url('../../../img/bg-home.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    -webkit-perspective: 2px;
+            perspective: 2px;
+    height: 100vh;
+  }
+  .wrap::before {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+  }
+  .text{
+    color: #fff;
+    font-size: 5.5rem;
+  }
+  .text1{
+    color: #F97C3D;
+    font-size: 3rem;
+  }
+  .Translate{
+    font-weight: 500;
+    font-size: 15px;
+    color:#fff;
+    z-index: 1;
+  }
+  .Translate-hover{
+    color: #fff
+  }
+  .Translate-hover:hover{
+    color: #fff;
+    border-bottom : 2px solid #F97C3D;
+  }
+  .social{
+    font-size:15px;
+    position: fixed ;
+    -webkit-text-decoration: 'none';
+            text-decoration: 'none';
+    color: #fff;
+    font-size: 20px;
+    top: 50%;
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    z-index: 1;
+  }
+  .scroll{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    font-size: 15px;
+    font-weight: 500;
+    position: fixed;
+    bottom: 30px;
+    left: 48.5%;
+    text-decoration: none;
+    color: #fff;
+    z-index: 1;
+  }
+  a.scroll {
+    color: #fff;
+  }
+  a.scroll:hover {
+    color: #fff;
+  }
+  .between{
+    margin-top: -1px;
+  }
+  
+  @media screen and (max-width: 1024px){
+    .scroll{
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 768px){
+    .text{
+      font-size: 3.5rem;
+    }
+    .text1{
+      font-size: 1.5rem;
+    }
+    .scroll{
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 576px){
+    .text{
+      font-size: 3.5rem;
+    }
+    .text1{
+      font-size: 1.5rem;
+    }
+  }

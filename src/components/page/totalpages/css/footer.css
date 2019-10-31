@@ -1,0 +1,17 @@
+.footer{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #999;
+  }
+.text-footer{
+    font-weight: 500;
+    font-size: 14px;
+}  
+

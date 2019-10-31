@@ -1,0 +1,132 @@
+.HomeContainer{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    background-color: #fff;
+    -webkit-perspective: 2px;
+    -webkit-perspective: 2px;
+            perspective: 2px;
+    padding-top: 30px;
+  }
+
+.imges{
+    max-width: 1000px;
+    width: 100%;
+}
+
+.text-header{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.text-topics{
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.text-content{
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.text-title{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.text-Pricing{
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.text-Pricing-center{
+    text-align: center;
+}
+
+.link{
+    font-size: 14px;
+    margin-left: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.link-fonthome{
+    margin-top: 16px;
+    margin-left: 10px;
+    color: #49a9ee;
+    font-family: 'Kanit', sans-serif;
+}
+
+.link-fonthome:hover{
+    color: #0e77ca;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    height:0;
+}
+
+.map-iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.map{
+    height: 500px;
+    max-height: 100%;
+}
+
+.buttonhome{
+    background: #F97C3D !important;
+    border: 1px solid #F97C3D !important;
+    color: #fff !important;
+    border-radius: 25px !important;
+    height: 30px !important;
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.buttonhome:hover{
+    background: rgba(0, 0, 0, 0.01) !important;
+    border: 1px solid #000 !important;
+    color: #000 !important;
+}
+
+
+  @media screen and (max-width: 768px){
+   
+  }
+  
+  @media screen and (max-width: 524px){
+   .text-header{
+       font-size: 45px;
+   }
+   .link-fonthome{
+    margin-top: 0px;
+    margin-left: 0px;
+   }
+   .text-topics{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+  
+  @media screen and (max-width: 320px){
+   
+  }
+  
