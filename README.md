@@ -3,5 +3,5 @@
 ## Project internship at Thaidotrun Co. Ltd
 
 ### Stack
-    * React
-    * styled-components
+  * React
+  * styled-components
